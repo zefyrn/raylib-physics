@@ -44,8 +44,7 @@ Sol tık: main.cpp'de belirtilen genişlikte ve yükseklikte bir dörtgen oluşt
 ## Bilinen Sorunlar
 - Titreme
 - Zaman adımı sabit değil
-- Nesne sürükleme, kamera kontrolü ve şekil oluşturma ekranı yok
--Ekranda fare konumu kayabilir
+- Ekranda fare konumu kayabilir
 
 ## Lisans
-MIT
+MIT [LICENSE](LICENSE)
