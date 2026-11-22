@@ -1,5 +1,6 @@
 #pragma once
 #include "body.h"
+#include <limits>
 bool AABB(const body& a, const body& b);
 struct collisionInfo {
 	bool hit = false;

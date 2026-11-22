@@ -2,6 +2,7 @@
 #include "collision.h"
 #include "body.h"
 #include <unordered_map>
+#include <cstdint>
 
 struct world {
 	std::vector<body> bodyList;

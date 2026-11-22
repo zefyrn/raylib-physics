@@ -59,7 +59,7 @@ void world::resolveCollisions(const collisionInfo& info, body& a, body& b) {
 		b.angVel += perpDot(rB, impulse) * b.invInertia;
 
 		Vector2 rv = (b.speed + perpScale(b.angVel, rB)) - (a.speed + perpScale(a.angVel, rA));
-		Vector2 t = rv - dotProduct(rv, info.normal) * info.normal;
+		Vector2 t = rv - info.normal * dotProduct(rv, info.normal);
 		float tLen = sqrt(t.x * t.x + t.y * t.y);
 		if (tLen > 1e-6f) {
 			t.x /= tLen;
