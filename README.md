@@ -11,7 +11,6 @@ C++ ile yazılmış, öğrenme amaçlı 2d bir fizik motoru
 - Yarı örtük euler entegrasyonu
 
 ## Derleme
-**Gereksinimler:** C++17, Raylib
 ```bash
 git clone https://github.com/zefyrn/raylib-physics
 cd raylib-physics
@@ -46,6 +45,7 @@ Sol tık: main.cpp'de belirtilen genişlikte ve yükseklikte bir dörtgen oluşt
 - Titreme
 - Zaman adımı sabit değil
 - Nesne sürükleme, kamera kontrolü ve şekil oluşturma ekranı yok
+-Ekranda fare konumu kayabilir
 
 ## Lisans
 MIT
