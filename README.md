@@ -13,8 +13,8 @@ C++ ile yazılmış, öğrenme amaçlı 2d bir fizik motoru
 ## Derleme
 **Gereksinimler:** C++17, Raylib
 ```bash
-git clone https://github.com/kullanici/proje.git
-cd proje
+git clone https://github.com/zefyrn/raylib-physics
+cd raylib-physics
 cmake -B build
 cmake --build build --config Release
 build\Release\physics.exe
